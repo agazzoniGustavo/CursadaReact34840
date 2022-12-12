@@ -1,0 +1,11 @@
+[
+    {"id":1, "nombre":"Curso tipografia inicial", "descripcion":"Curso de tecnicas para letras en nivel inicial ", "imagen": "/img/GI-1.jpg", "precio":1500, "stock":2, "categoria":"tipografia"},
+    {"id":2, "nombre":"Curso tipografia medio", "descripcion":"Curso de tecnicas para letras en nivel medio ", "imagen":"/img/GI-2.jpg", "precio":2000, "stock":4, "categoria":"tipografia"},
+    {"id":3, "nombre":"Curso tipografia  avanzado", "descripcion":"Curso de tecnicas para letras en nivel avanzado ", "imagen":"/img/GI-3.jpg", "precio":3500, "stock":5, "categoria":"tipografia"},
+    {"id":4, "nombre":"Curso rostros inicial", "descripcion":"Curso de tecnicas y correcto uso de pincel para caricaturas en nivel inicial ", "imagen":"/img/GI-4.jpg", "precio":2000, "stock":2, "categoria":"caricaturas"},
+    {"id":5, "nombre":"Curso rostros medio", "descripcion":"Curso de tecnicas y correcto uso de pincel para caricaturas en nivel medio ", "imagen":"/img/GI-5.jpg", "precio":2500, "stock":3, "categoria":"caricaturas"},
+    {"id":6, "nombre":"Curso rostros avanzado", "descripcion":"Curso de tecnicas y correcto uso de pincel para caricaturas en nivel avanzado ", "imagen":"/img/GI-5.jpg", "precio":3500, "stock":5, "categoria":"caricaturas"},
+    {"id":7, "nombre":"Curso realismo inicial", "descripcion":"Curso de tecnicas, elementos y tips para realismo en nivel inicial ", "imagen":"/img/GI-7.jpg", "precio":2500, "stock":2, "categoria":"realismo"},
+    {"id":8, "nombre":"Curso realismo medio", "descripcion":"Curso de tecnicas, elementos y tips para realismo en nivel medio ", "imagen":"/img/GI-7.jpg", "precio":3500, "stock":5, "categoria":"realismo"},
+    {"id":9, "nombre":"Curso realismo avanzado", "descripcion":"Curso de tecnicas, elementos y tips para realismo en nivel avanzado ", "imagen":"/img/GI-7.jpg", "precio":4500, "stock":4, "categoria":"realismo"}
+]

@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Error404 from "./components/Error404";
 import CartContextProvider from './components/context/CartContext';
 import Cart from './components/Cart';
+import Checkout from "./components/Checkout";
 
 function App() {
   return (
@@ -18,17 +19,18 @@ function App() {
       <div className="row">
       <div className="col-md-12">
         <Navbar />
+        <div className="producto row">
+        <Producto />
         <Routes>
           <Route path={"/"} element={<ItemListContainer />} />
           <Route path={"/category/:id"} element={<ItemListContainer />} />
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
           <Route path={"/cart"} element={<Cart />} />
+          <Route path={"/checkout"} element={<Checkout />} />
           <Route path={"*"} element={<Error404 />} />
         </Routes>
           </div>
           </div>
-          <div className="producto row">
-        <Producto />
           <section>
           <div className="footer" src>
         <Footer />

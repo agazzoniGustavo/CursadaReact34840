@@ -10,7 +10,7 @@ const Cart = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <div class="alert alert-danger" role="alert">No se encontraron Productos en el Carrito!</div>
+                        <div className="alert alert-danger" role="alert">No se encontraron Productos en el Carrito!</div>
                         <Link to={"/"} className="btn fondoRosa">Volver a la Página Principal</Link>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const Cart = () => {
         <div className="container py-5">
             <div className="row">
                 <div className="col-md-12">
-                    <table class="table">
+                    <table className="table">
                         <thead>
                             <tr>
                                 <th scope="col" className="text-end" colSpan={5}><Link onClick={clear} className="btn fondoRosa" title="Vaciar Carrito">Vaciar Carrito</Link></th>
@@ -42,7 +42,7 @@ const Cart = () => {
                                     <td className="align-middle">{item.nombre}</td>
                                     <td className="text-center align-middle">{item.quantity}</td>
                                     <td className="text-center align-middle">${item.quantity * item.precio}</td>
-                                    <td className="text-end align-middle"><Link onClick={() => {removeItem(item.id)}} title="Eliminar Producto"><img src={"/img/trash.svg"} alt={"Eliminar Producto"} width={24} /></Link></td>
+                                    <td className="text-end align-middle"><Link onClick={() => {removeItem(item.id)}} title="Eliminar Producto"><img src={"img/trash.svg"} alt={"Eliminar Producto"} width={24} /></Link></td>
                                 </tr>
                             ))}
                             <tr>

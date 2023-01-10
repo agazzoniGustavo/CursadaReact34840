@@ -4,7 +4,7 @@ const Producto = () => {
     return (
         <div>
             <div className="producto">
-    <img src={"/img/clase caricaturas 2.jpg"} alt="Foto index" width={900} />
+    <img className="container-fluid" src={"/img/clase caricaturas 2.jpg"} alt="Foto index" width={900} />
 </div>
 <div className="producto">
     <h1>Llenemos el mundo de caricaturas!</h1>

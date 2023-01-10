@@ -7,9 +7,9 @@ const Cart = () => {
 
     if (cartTotal() === 0) {
         return (
-            <div className="container py-5">
-                <div className="row">
-                    <div className="col-md-12 text-center">
+            <div className="container-fluid py-5">
+                <div className="container-fluid row">
+                    <div className="container-fluid col-md-12 text-center">
                         <div className="alert alert-danger" role="alert">No se encontraron Productos en el Carrito!</div>
                         <Link to={"/"} className="btn fondoRosa">Volver a la Página Principal</Link>
                     </div>
@@ -19,7 +19,7 @@ const Cart = () => {
     }
 
     return (
-        <div className="container py-5">
+        <div className="py-5">
             <div className="row">
                 <div className="col-md-12">
                     <table className="table">
@@ -35,7 +35,7 @@ const Cart = () => {
                                 <th scope="col">&nbsp;</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody className="container-fluid">
                             {cart.map(item => (
                                 <tr key={item.id}>
                                     <td><img src={item.imagen} alt={item.nombre} width={64} /></td>
